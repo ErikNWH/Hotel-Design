@@ -80,6 +80,7 @@ p {
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.3;
 }
 
 /* Padding */
@@ -190,7 +191,6 @@ p {
   float: right;
   width: 50%;
   min-height: 100%;
-
 }
 
 #about-info .info-right img{
@@ -202,16 +202,15 @@ p {
 
 #about-info .info-left {
   float: left;
-  min-height: 100%;
   width: 50%;
-
+  min-height: 100%;
 }
 
 /* Testimonials */
 
 #testimonials {
-  height: 600px;
-  background: url(./img/test-bg.jpg) no-repeat center center/cover;
+  /* height: 100%; */
+  background: url(../img/test-bg.jpg) no-repeat center center/cover;
   padding-top: 100px;
 }
 
@@ -259,12 +258,9 @@ p {
   border-color: #f7c08a;
 }
 
-
 #contact-form textarea {
   height: 200px;
 }
-
-
 
 /* Footer */
 
@@ -274,4 +270,3 @@ p {
   color: #fff;
   padding: 20px;
 }
-
